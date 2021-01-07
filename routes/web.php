@@ -15,7 +15,7 @@ use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('home');
+    return view('page');
 });
 
 Route:: get('/home','HomeController@home');
@@ -23,3 +23,4 @@ Route:: get('/about','HomeController@about');
 Route:: get('/contact','HomeController@contact');
 Route:: get('/login','HomeController@login');
 Route:: get('/signup','AuthController@signup');
+Route:: get('/password','AuthController@password');

@@ -32,7 +32,6 @@
                     @enderror
                   </div>
                   
-                 
                   
                 </div>
                 <!-- /.card-body -->
